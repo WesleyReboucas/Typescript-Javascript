@@ -5,4 +5,4 @@
 ##### This is a summary I'm creating with my words about JavaScript and I've decided to post so that I can help others. Feel free to help with new / better commands.
 
 ###### Att, 
-###### 		Wesley de A. Rebouças 
+###### Wesley de A. Rebouças 
