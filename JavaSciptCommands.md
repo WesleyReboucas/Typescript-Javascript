@@ -1,7 +1,7 @@
 				-------------------| Java Script |-----------------
 
 
----> Comentar no Código:
+#---> Comentar no Código:
 
 
 	> Comentar linha: // TEXTO
@@ -22,40 +22,40 @@
 	
 	-> const - Variável constante. Adicionar const no inicio do nome da variavel. Não pode ser alterada.
 
-		const NOME_VARIAVEL = 'TEXTO'; // NOME_VARIAVEL = TEXTO
-		const NOME_VARIAVEL = NUMERO;  // NOME_VARIAVEL = NUMERO
-
-	-> let - Variável loca. Variavel propriamente dita. Adicionar let no inicio do nome da variavel. Pode ser alterada.
-
-		- let NOME_VARIAVEL = 'TEXTO'; // NOME_VARIAVEL = TEXTO
-		- let NOME_VARIAVEL = NUMERO;  // NOME_VARIAVEL = NUMERO
+		- const NOME_VARIAVEL = 'TEXTO'; // NOME_VARIAVEL = TEXTO
+		- const NOME_VARIAVEL = NUMERO;  // NOME_VARIAVEL = NUMERO
 
 	-> var - Variável global. Variavel propriamente dita. Adicionar let no inicio do nome da variavel. Pode ser alterada.
 
 		- var NOME_VARIALVEL = 'TEXTO' // NOME_VARIAVEL = TEXTO
 		- var NOME_VARIAVEL = NUMERO;  // NOME_VARIAVEL = NUMERO
 
+	-> let - Variável local. Variavel propriamente dita. Adicionar let no inicio do nome da variavel. Pode ser alterada.
+
+		- let NOME_VARIAVEL = 'TEXTO'; // NOME_VARIAVEL = TEXTO
+		- let NOME_VARIAVEL = NUMERO;  // NOME_VARIAVEL = NUMERO
+
 	-> Indefinida - Criar uma variavel indefinida. Não iguala a nenhum valor.
 
-		let NOME_VARIAVEL;
+		- var/let NOME_VARIAVEL;
 
-	-> Operação com Variaveis
+	-> Operação com Variaveis - 
 
-		let x = 4;
-		x = x + 2; -|
-		  ou 		 >  // x = 6
-		x += 2;    -|
-		x++;			// x = 5
+		   x = x + 2;  \	// x = 6
+		-    ou 	    >  
+		   x += 2;     /	// x = 5
 
+		-  x++;			
+ 
 	-> Incorporação de Strings I - Deve ser declarada fora das aspas e ser antecedida por um sinal de +.
 
-		let NOME_VARIAVEL = 'Dog';
-		console.log( 'My favorit animal: ' + NOME_VARIAVEL);
+		- var NOME_VARIAVEL = 'Dog';
+		  console.log( 'My favorit animal: ' + NOME_VARIAVEL);
 
-	-> Incorporação de Strings II - O texto deve ser posto dentro de ` e ` (acento agudo) e a variavel deve ser declarada dessa maneira: ${NOME_VARIAVEL}
+	-> Incorporação de Strings II - Neste caso o texto deve ser posto dentro de `` (acento agudo) e a variavel deve ser declarada dessa maneira: ${NOME_VARIAVEL}
 
-		let NOME_VARIAVEL = "Wesley";
-		console.log(`My name is ${NOME_VARIAVEL}.`);
+		- var NOME_VARIAVEL = "Wesley";
+		  console.log(`My name is ${NOME_VARIAVEL}.`);
 
 
 ---> Propriedades 
@@ -63,19 +63,19 @@
 
 	-> .length - Ela identifica a quantidade de caracteres informada dentro das aspas: 
 
-		console.log ( 'TEXTO'.length );   // 5
+			console.log ( 'TEXTO'.length );   // 5
 
 	-> .toUpperCase() - Ela coloca todas as letras maiusculas:
 
-		console.log ('hello'.toUpperCase);   //  HELLO
+			console.log ('hello'.toUpperCase);   //  HELLO
 
 	-> .startsWith() - Verifica se a letra dentro dos parenteses é a mesma que a letra inicial que da primeira e retorna true/false:
 
-		console.log ('TEXTO'.startsWith('T'));   //  true
+			console.log ('TEXTO'.startsWith('T'));   //  true
 
 	-> .trim - Retira os espaços em branco de uma string:
 
-		console.log ('	Espaço em branco	'.trim());  // Espaço em branco
+			console.log ('	Espaço em branco	'.trim());  // Espaço em branco
 
 
 ---> Libraries
