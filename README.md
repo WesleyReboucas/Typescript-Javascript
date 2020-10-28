@@ -5,10 +5,10 @@
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/wesley-andrade/">	
-		<img src="https://img.shields.io/static/v1?label=&message=WesleyAndrade&color=61DAFB&style=flat&logo=linkedin"/>
+		<img src="https://img.shields.io/static/v1?label=&message=WesleyAndrade&color=007ACC&style=flat&logo=linkedin"/>
 	</a>
 	<a href="https://choosealicense.com/licenses/mit/">	
-		<img src="https://img.shields.io/static/v1?label=License&message=MIT&color=EB5424&style=flat"/>
+		<img src="https://img.shields.io/static/v1?label=License&message=MIT&color=F7DF1E&style=flat"/>
 	</a>
 </p>
 
